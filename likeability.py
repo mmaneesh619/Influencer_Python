@@ -7,7 +7,7 @@ Created on Thu Jun 10 14:48:59 2021
 
 import pandas as pd
 
-df = pd.read_csv("C:/Maneesh/Pre_Buying_Activity/python_dashboard/00_NYC_open_data/CMBND_1.csv",low_memory=False)
+df = pd.read_csv("E:/my_python_works/key_influencer/CMBND_1.csv",low_memory=False)
 
 lst_attrbts=['TST_DRV.VHCL_FEATR_MAPNG.FEATR.FEATR_NM','TST_DRV.VHCL_FEATR_MAPNG.VHCL_MDL_LIST.VHCL_CLR','TRVL_TYP.TRVL_TYP_NM','CSTMR_AGE','CSTMR_JOB']
 
